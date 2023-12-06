@@ -1,12 +1,23 @@
-console.log("Hello World");
+//String - abc123!@#$
+let name = "John";
+console.log("The type of name:", typeof name);
 
-// Statements: JavaScript code is composed of statements that perform specific actions. Each statement typically ends with a semicolon (;), although it is not always required.
+//Number - 123456
+let age  = 25;
+console.log("The type of age:", typeof age);
 
-// Comments: You can add comments in JavaScript to provide explanations or make notes within the code. There are two types of comments: single-line comments, starting with //, and multi-line comments, enclosed between /* and */.
+//Boolean - True or false
+let isStudent = false;
+let isTeacher = true;
+console.log("The type of isStudent:", typeof isStudent);
+console.log("The type of isTeacher:", typeof isTeacher);
 
-// Case sensitivity: JavaScript is case-sensitive, meaning that uppercase and lowercase letters are treated differently. For example, "variable" and "Variable" would be considered as two separate variables.
+//Null - Intentional absence of data
+let girlFriend = null;
+console.log("The type of girlfriend:", typeof girlFriend);
 
-// Whitespace: JavaScript ignores spaces, tabs, and line breaks (collectively called whitespace) that are not necessary for code execution. However, whitespace can enhance code readability.
-
-// Blocks: Code blocks in JavaScript are enclosed in curly braces ({}) and are used to group statements together. Blocks are often used in control structures like loops and conditional statements.
+let myNumber;
+console.log(myNumber);
+console.log("The value of city:", myNumber);
+console.log("The type of city:", typeof myNumber);
 
