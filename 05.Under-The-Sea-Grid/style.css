@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+  background-color: lightskyblue;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-top: 24px;
+}
+
+
+#fish {
+  width: 300px;
+  height: 400px;
+  grid-area: fish;
+  justify-self: end;
+}
+
+#water {
+  height: 200px;
+  grid-area: water;
+  justify-self: start;
+}
+
+#coral {
+  width: 250px;
+  grid-area: coral;
+  justify-self: end;
+}
+
+#jellyfish {
+  height: 400px;
+  grid-area: jellyfish;
+  justify-self: start;
+}
+
+#title{
+  font-size: 30px;
+  text-transform: uppercase;
+  grid-area: title;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#blurb{
+  font-size: 22px;
+  grid-area: blurb;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-self: start;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+  row-gap: 10px;
+  column-gap: 10px; 
+  grid-template-areas: 
+  "fish  water title title jellyfish"
+  "fish  water blurb blurb jellyfish"
+  "coral blank blank blank jellyfish";
+}
